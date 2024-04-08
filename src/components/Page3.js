@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import PullyImage from '../Images/img12.png';
 
 function Page3({ onNext }) {
-  const [optionSelected, setOptionSelected] = useState(false);
 
   const handleContinue = () => {
       onNext();
